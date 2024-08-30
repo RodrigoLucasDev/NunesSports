@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #346449;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+}
+
+.title {}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-bar .icon-lupa {
+    margin-right: 5px;
+    font-size: 18px;
+    /* Ajuste o tamanho da lupa conforme necessário */
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    width: 250px;
+    background-color: transparent;
+    /* Remove a cor de fundo para que o fundo cinza apareça */
+    color: white;
+}
+
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    /* Placeholder transparente */
+}
+
+.search-bar .btn-pesquisar {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50; /* Cor do botão Pesquisar */
+    color: white;
+    cursor: pointer;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    /* Cor de fundo da main */
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.form-section {
+    background-color: green;
+    /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.product-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.product-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-confirmar {
+    width: 100%;
+    padding: 10px;
+    background-color: limegreen;
+    /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.table-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #0c6b1b;
+    /* Cor de fundo da tabela */
+    border-radius: 5px;
+}
+
+.filter-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.filter-controls select {
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: rgb(5, 1, 54);
+    /* Cor do cabeçalho da tabela */
+    color: white;
+}
+
+.product-table td {
+    background-color: rgb(1, 88, 74);
+    /* Cor das células da tabela */
+}
+
+.btn-editar {
+    background-color: rgb(241, 177, 0);
+    /* Cor do botão editar */
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-remover {
+    background-color: rgb(145, 1, 1);
+    /* Cor do botão remover */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.site-footer {
+    background-color: rgb(2, 100, 43);
+    /* Cor de fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0;
+}
