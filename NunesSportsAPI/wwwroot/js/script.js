@@ -95,7 +95,7 @@ document.querySelector('.search-bar input').addEventListener('input', function()
     const linhas = document.querySelectorAll('.product-table tbody tr');
 
     linhas.forEach(linha => {
-        const nomeProduto = linha.cells[1].textContent.toLowerCase()
+        const nomeProduto = linha.cells[1].textContent.toLowerCase();
         linha.style.display = nomeProduto.includes(filtro) ? '' : 'none';
     });
 });
