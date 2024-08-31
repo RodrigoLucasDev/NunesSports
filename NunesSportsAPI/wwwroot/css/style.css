@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 1px 20px;
     background: linear-gradient(2deg, #F3C500, #ff9100, #f37500);
 }
 
@@ -117,7 +117,6 @@
     border: 1px solid #ccc;
     background-color: rgb(228, 217, 217);
 }
-
 .product-table {
     width: 100%;
     border-collapse: collapse;
@@ -160,10 +159,9 @@
     background: linear-gradient(25deg, #F3C500, #ff9100, #f37500);
     color: #08351e;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     position: relative;
     width: 100%;
-    margin-top: 20px;
 }
 
 .site-footer p {

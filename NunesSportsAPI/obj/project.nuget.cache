@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmr2Nvt2N4VhaxEbGuhsvpZxu6sujbZ23bXBLmoGBEPVVh2/k0aSTXREjl+OdpE2FNN9uCMXzvpjRyFs9iJjkg==",
+  "dgSpecHash": "hulb/zTJKeql78buPjj9T8Dln1sdrIOhunxtDUF621vXg0JovY3uSqjHiwQw/l9PYAYal9UPUEkm3Ysli1o4Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSportsAPI\\NunesSportsAPI.csproj",
+  "projectFilePath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RLcab\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\RLcab\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
