@@ -1,14 +1,10 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
+/* Cabeçalho */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #346449;
+    background: linear-gradient(2deg, #F3C500, #ff9100, #f37500);
 }
 
 .logo img {
@@ -16,20 +12,24 @@ body {
     height: 100px;
 }
 
-.title {}
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: larger;
+    color: #e1e9e3;
+}
 
 .search-bar {
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #f7e3e3;
     padding: 5px;
     border-radius: 5px;
 }
 
 .search-bar .icon-lupa {
-    margin-right: 5px;
+    margin-right: 3px;
+    margin-left: 5px;
     font-size: 18px;
-    /* Ajuste o tamanho da lupa conforme necessário */
 }
 
 .search-bar input {
@@ -39,13 +39,11 @@ body {
     outline: none;
     width: 250px;
     background-color: transparent;
-    /* Remove a cor de fundo para que o fundo cinza apareça */
     color: white;
 }
 
 .search-bar input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-    /* Placeholder transparente */
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .search-bar .btn-pesquisar {
@@ -53,32 +51,19 @@ body {
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
-    background-color: #4CAF50; /* Cor do botão Pesquisar */
+    background: linear-gradient(5deg, #05903D, #0AA352, #16be70);
     color: white;
     cursor: pointer;
 }
 
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #4CAF50;
-    /* Cor de fundo da main */
-}
-
+/* Conteúdo Principal */
 .main-content {
     display: flex;
     padding: 20px;
 }
 
 .form-section {
-    background-color: green;
-    /* Cor de fundo do formulário */
+    background: linear-gradient(150deg, #F3C500, #ff9100, #f37500);
     padding: 20px;
     border-radius: 5px;
     margin-right: 20px;
@@ -103,8 +88,7 @@ body {
 .btn-confirmar {
     width: 100%;
     padding: 10px;
-    background-color: limegreen;
-    /* Cor do botão */
+    background: linear-gradient(5deg, #05903D, #0AA352, #16be70);
     color: white;
     border: none;
     border-radius: 4px;
@@ -112,11 +96,11 @@ body {
     font-size: 16px;
 }
 
+/* Tabela */
 .table-section {
     flex: 2;
     padding: 20px;
-    background-color: #0c6b1b;
-    /* Cor de fundo da tabela */
+    background: linear-gradient(5deg, #05903D, #0AA352, #16be70);
     border-radius: 5px;
 }
 
@@ -131,6 +115,7 @@ body {
     margin-left: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
+    background-color: rgb(228, 217, 217);
 }
 
 .product-table {
@@ -146,19 +131,16 @@ body {
 }
 
 .product-table th {
-    background-color: rgb(5, 1, 54);
-    /* Cor do cabeçalho da tabela */
+    background-color: #242121;
     color: white;
 }
 
 .product-table td {
-    background-color: rgb(1, 88, 74);
-    /* Cor das células da tabela */
+    background-color: rgb(228, 217, 217);
 }
 
 .btn-editar {
     background-color: rgb(241, 177, 0);
-    /* Cor do botão editar */
     border: none;
     padding: 5px 10px;
     margin-right: 5px;
@@ -167,32 +149,21 @@ body {
 
 .btn-remover {
     background-color: rgb(145, 1, 1);
-    /* Cor do botão remover */
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
 }
 
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
+/* Rodapé */
 .site-footer {
-    background-color: #006400; /* Cor de fundo do rodapé */
-    color: rgb(163, 8, 8);
+    background: linear-gradient(25deg, #F3C500, #ff9100, #f37500);
+    color: #08351e;
     text-align: center;
     padding: 10px;
     position: relative;
     width: 100%;
-    margin-top: 20px; /* Ajuste essa margem conforme necessário */
+    margin-top: 20px;
 }
 
 .site-footer p {

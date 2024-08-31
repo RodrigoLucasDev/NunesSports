@@ -4,31 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
-    font-family: sans-serif;
 }
 
-/* Remove formatações padrão de listas */
-ul, ol {
-    list-style: none;
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(228, 217, 217);
 }
-
-/* Remove formatações padrão de links */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Define uma base para imagens */
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-/* Remover margens padrão de títulos */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
+
