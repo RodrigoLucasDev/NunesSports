@@ -46,16 +46,20 @@
         <section class="table-section">
             <div class="filter-controls">
                 <select id="ordenar-por">
-                    <option value="" disabled selected>Ordenar por</option>
-                    <!-- opções de ordenação -->
+                    <option value="" disabled selected>Ordenar</option>
+                    <option value="codigo">Código</option>
+                    <option value="nome">Nome</option>
+                    <option value="preco">Preço</option>
+                    <option value="quantidade">Quantidade</option>
                 </select>
+                
                 <select id="filtrar-por">
                     <option value="" disabled selected>Filtrar por</option>
                     <!-- opções de filtragem -->
                 </select>
             </div>
 
-            <table class="product-tae">
+            <table class="product-table">
                 <thead>
                     <tr>
                         <th>Código</th>
@@ -68,11 +72,11 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>001</td>
-                        <td>Produto Exemplo</td>
-                        <td>Descrição Exemplo</td>
-                        <td>10.00</td>
-                        <td>50</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <button class="btn-editar">Editar</button>
                             <button class="btn-remover">Remover</button>
@@ -88,6 +92,6 @@
         <p>&copy; A seguinte página tem direitos protegidos por Copyright</p>
     </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="/NunesSportsAPI/wwwroot/js/script.js"></script>
 </body>
 </html>

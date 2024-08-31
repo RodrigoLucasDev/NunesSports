@@ -186,14 +186,13 @@ body {
 }
 
 .site-footer {
-    background-color: rgb(2, 100, 43);
-    /* Cor de fundo do rodapé */
-    color: white;
+    background-color: #006400; /* Cor de fundo do rodapé */
+    color: rgb(163, 8, 8);
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
+    margin-top: 20px; /* Ajuste essa margem conforme necessário */
 }
 
 .site-footer p {
