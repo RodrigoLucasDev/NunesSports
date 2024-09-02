@@ -1,40 +1,62 @@
-NunesSports - Sistema de Controle de Vendas de Produtos Esportivos
-Este projeto foi desenvolvido como parte de um desafio de desenvolvimento de um sistema de controle de vendas para a empresa fictícia NunesSports. O sistema é composto por um front-end responsivo e um back-end com integração ao banco de dados MySQL, desenvolvido em C# utilizando ASP.NET Core e Entity Framework.
+# NunesSports - Controle de Produtos Vendidos
 
-Funcionalidades Implementadas
-Front-End
-O front-end do projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro. Algumas das principais funcionalidades incluem:
+## Descrição do Projeto
 
-Formulário de Cadastro de Produtos: Permite ao usuário cadastrar produtos com campos para nome, código, descrição, preço e quantidade.
-Tabela Dinâmica: Os produtos cadastrados são exibidos em uma tabela que é populada dinamicamente.
-Ordenação de Produtos: Através de um select, o usuário pode ordenar os produtos por código, nome, preço ou quantidade.
-Barra de Pesquisa: O usuário pode buscar por produtos pelo nome, e a tabela é filtrada dinamicamente com base na busca.
-Edição e Remoção de Produtos: Cada linha da tabela possui botões para editar e remover o produto correspondente.
-Design Responsivo: O layout foi desenvolvido para ser responsivo, inspirado na paleta de cores do site Globo Esporte, refletindo a temática esportiva da empresa.
-Back-End
-O back-end foi desenvolvido utilizando C# com ASP.NET Core e Entity Framework para facilitar a integração com o banco de dados MySQL.
+Este projeto foi desenvolvido com o objetivo de criar uma aplicação web para o controle de produtos vendidos em uma empresa de esportes. O projeto inclui funcionalidades como cadastro de produtos, ordenação, filtragem e pesquisa de produtos, tudo feito com uma interface web intuitiva e responsiva.
 
-Criação e Configuração do Projeto: O projeto ASP.NET Core foi configurado para suportar as funcionalidades necessárias para o sistema.
-Modelagem de Dados: O sistema foi configurado para usar o Entity Framework para mapear as tabelas e colunas do banco de dados diretamente a partir das classes C#.
-Migrações: A configuração do banco de dados foi realizada através de migrações do Entity Framework, garantindo que o banco de dados MySQL seja estruturado de acordo com as necessidades do sistema.
-Status do Projeto
-Atualmente, o front-end está completamente funcional e responsivo, com todas as funcionalidades implementadas. No entanto, a integração do back-end com o banco de dados ainda está em desenvolvimento. A lógica de programação em C# utilizando .NET foi aplicada, mas a integração completa com o banco de dados MySQL utilizando o Entity Framework ainda não está finalizada.
+### Tecnologias Utilizadas
 
-Tecnologias Utilizadas
-C# + ASP.NET Core + Entity Framework:
-Escolhi essa stack devido à minha familiaridade com a linguagem C#. A combinação dessas tecnologias é poderosa para o desenvolvimento de aplicações web robustas e escaláveis. Embora eu tenha conhecimento em lógica de programação em C#, essa foi a primeira vez que trabalhei com frameworks como ASP.NET Core e Entity Framework, o que se mostrou desafiador.
-Banco de Dados MySQL:
-O MySQL foi escolhido por ser um banco de dados relacional confiável, com boa performance e que atende perfeitamente às necessidades deste projeto. Eu já tinha conhecimento em SQL, criação de tabelas e consultas, mas nunca havia feito um projeto que integrasse o banco de dados com um back-end, o que adicionou um nível extra de desafio.
-Front-End (HTML + CSS + JavaScript):
-Para o desenvolvimento do front-end, optei por utilizar HTML, CSS e JavaScript puro, devido à minha inexperiência com frameworks modernos como React, que eu havia começado a estudar recentemente. Essa escolha me permitiu focar em desenvolver uma interface funcional e responsiva, sem o peso de aprender uma nova tecnologia durante o desenvolvimento.
-Desafios e Aprendizados
-O desenvolvimento deste projeto foi um grande desafio e uma oportunidade de aprendizado. A integração entre o back-end e o banco de dados, algo que eu nunca havia feito antes, se mostrou bastante desafiadora, principalmente no que diz respeito à configuração do Entity Framework e às migrações no MySQL. Apesar das dificuldades, essa experiência me fez evoluir muito como desenvolvedor, ampliando meu entendimento sobre essas tecnologias.
+- **Back-End:**
+  - C#
+  - ASP.NET Core
+  - Entity Framework Core
+  - MySQL
 
-Embora o projeto ainda não esteja completo, principalmente no que se refere à integração do back-end com o banco de dados, estou confiante de que com tempo e estudo conseguirei resolver as pendências e entregar um sistema plenamente funcional.
+- **Front-End:**
+  - HTML
+  - CSS
+  - JavaScript
 
-Próximos Passos
-Finalizar a Integração do Back-End com o Banco de Dados: Resolver as pendências de migração e configuração para que os dados inseridos no front-end sejam persistidos corretamente no banco de dados MySQL.
-Incrementar Funcionalidades: Conforme vou aprendendo mais sobre as tecnologias utilizadas, pretendo adicionar mais funcionalidades ao sistema, como autenticação de usuários e relatórios de vendas.
-Estudo de Novas Tecnologias: Tenho interesse em explorar frameworks de front-end como React no futuro para modernizar a interface do sistema e otimizar o código.
-Conclusão
-Este projeto foi um marco no meu aprendizado, permitindo que eu consolidasse meu conhecimento em várias áreas e me desafiando a resolver problemas complexos. Pretendo continuar desenvolvendo e aprimorando este sistema, buscando sempre o aprimoramento das minhas habilidades como desenvolvedor.
+### Estrutura do Projeto
+
+- **Frontend:**
+  - O front-end foi desenvolvido utilizando HTML, CSS e JavaScript puro. A escolha foi feita devido ao meu conhecimento prévio nessas tecnologias, além do curto tempo para entrega do projeto. A interface é responsiva e inclui funcionalidades como ordenação, pesquisa e inserção de produtos na tabela.
+
+- **Backend:**
+  - O backend foi desenvolvido em C# utilizando o framework ASP.NET Core. Foi a primeira vez que utilizei essa tecnologia em um projeto real, o que trouxe desafios significativos. A integração com o banco de dados MySQL foi feita utilizando o Entity Framework Core.
+
+- **Banco de Dados:**
+  - O banco de dados escolhido foi o MySQL, devido à sua robustez e facilidade de uso. Tive conhecimento prévio em comandos SQL, mas nunca havia feito a integração de um banco de dados em um projeto com ASP.NET Core.
+
+### Funcionalidades Implementadas
+
+- **Ordenação e Pesquisa:**
+  - O usuário pode ordenar os produtos cadastrados por código, nome, preço e quantidade. A pesquisa por nome também foi implementada, permitindo que o usuário filtre os produtos na tabela de forma dinâmica.
+
+- **Formulário de Cadastro:**
+  - A interface inclui um formulário para o cadastro de novos produtos. Ao preencher e enviar o formulário, os dados são automaticamente adicionados à tabela de produtos.
+
+### Desafios e Aprendizado
+
+Foi um projeto desafiador e extremamente interessante, que me proporcionou um grande aprendizado. Apesar de já ter conhecimento em lógica de programação em C# usando .NET, não tinha experiência com ASP.NET Core e Entity Framework, o que tornou o processo de desenvolvimento mais complexo. Além disso, a integração com o banco de dados MySQL foi uma novidade, já que eu tinha conhecimento em criação de tabelas e consultas, mas nunca havia feito a integração de um banco de dados em um projeto.
+
+### Motivações das Escolhas Tecnológicas
+
+- **C# + ASP.NET Core + Entity Framework:** A escolha dessas tecnologias foi motivada pela minha familiaridade com a linguagem C#. Apesar de ser desafiador, escolhi aprender e utilizar ASP.NET Core e Entity Framework Core por serem tecnologias poderosas e amplamente utilizadas no mercado.
+
+- **MySQL:** O MySQL foi escolhido por suas qualidades que atendem bem ao projeto, como sua robustez, facilidade de uso e suporte a grandes volumes de dados. Além disso, eu já tinha conhecimento em comandos SQL, o que facilitou o processo.
+
+- **HTML + CSS + JavaScript:** Embora eu tenha começado recentemente a estudar React, optei por utilizar HTML, CSS e JavaScript puro no front-end devido ao curto prazo para a entrega do projeto. Essas tecnologias me permitiram desenvolver uma interface responsiva e funcional.
+
+### Próximos Passos
+
+A integração completa do front-end com o back-end e o banco de dados ainda está em andamento. O próximo passo é concluir essa integração, garantindo que todas as funcionalidades do front-end estejam sincronizadas com o banco de dados e que o sistema esteja pronto para ser utilizado em um ambiente de produção.
+
+### Considerações Finais
+
+Esse projeto me proporcionou um grande aprendizado e me motivou a continuar evoluindo nas tecnologias utilizadas. A interface está funcionando perfeitamente e é responsiva, com funcionalidades de ordenação, pesquisa e cadastro de produtos implementadas. Continuarei a trabalhar neste projeto para melhorar a integração com o back-end e o banco de dados, a fim de entregar uma aplicação completa e funcional.
+
+## Créditos
+
+Desenvolvido por Rodrigo Teixeira Lucas
+
