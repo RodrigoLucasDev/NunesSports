@@ -1,4 +1,4 @@
-# NunesSports - Controle de Vendas
+# Nunes Sports - Controle de Vendas
 
 ## Descrição do Projeto
 
