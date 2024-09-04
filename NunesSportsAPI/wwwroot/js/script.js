@@ -1,3 +1,5 @@
+const apiBaseUrl = 'http://localhost:5210';
+
 // Função para adicionar uma nova linha na tabela
 function adicionarLinhaTabela({ codigo, nome, descricao, preco, quantidade }) {
     const tabela = document.querySelector('.product-table tbody');
