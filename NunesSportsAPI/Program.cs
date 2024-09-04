@@ -1,9 +1,12 @@
+using NunesSportsAPI.Data;  // Referência ao namespace do ApplicationDbContext
+using Microsoft.EntityFrameworkCore;  // Necessário para o DbContext e MySQL
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Adicionando o serviço do ApplicationDbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
-    new MySqlServerVersion(new Version(8, 0, 21)))); // Use a versão do seu MySQL
+    new MySqlServerVersion(new Version(8, 0, 39)))); // Use a versão do seu MySQL
 
 // Adicionando outros serviços
 builder.Services.AddControllersWithViews(); // Exemplo de outro serviço

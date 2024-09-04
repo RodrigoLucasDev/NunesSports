@@ -14,7 +14,7 @@ namespace NunesSportsAPI.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Produto>()
-                .HasKey(p => p.Codigo);
+            .HasKey(p => p.Id);
 
             base.OnModelCreating(modelBuilder);
         }

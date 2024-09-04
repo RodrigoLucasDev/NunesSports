@@ -1,3 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic; // Se você estiver usando listas ou coleções
+using NunesSportsAPI.Models;
+using NunesSportsAPI.Data;
+using Microsoft.EntityFrameworkCore;  // Necessário para usar o ToListAsync
+
+
 [Route("api/[controller]")]
 [ApiController]
 public class ProdutosController : ControllerBase

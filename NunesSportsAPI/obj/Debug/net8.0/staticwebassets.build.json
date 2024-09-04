@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XhMc1t/RGBWFLIoDZy2Lx7IxKF7URdi3dFRDpJLbDS0=",
+  "Hash": "FdUQYdo+D2a+QAfEGnLfT8fq9ATdIv2IFm/IfiyoBvo=",
   "Source": "NunesSportsAPI",
   "BasePath": "_content/NunesSportsAPI",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\images\\logo.png",
+      "SourceId": "NunesSportsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
+      "BasePath": "_content/NunesSportsAPI",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\js\\script.js",
