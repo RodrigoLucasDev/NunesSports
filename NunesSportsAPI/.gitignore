@@ -1,0 +1,27 @@
+# Ignorar pastas bin e obj
+bin/
+obj/
+
+# Ignorar arquivos temporários e de log
+*.log
+*.user
+*.lock
+
+# Ignorar arquivos específicos do Visual Studio/Visual Studio Code
+.vscode/
+.vs/
+
+# Ignorar os arquivos de compilação e temporários
+*.dll
+*.pdb
+*.exe
+*.cache
+*.csproj.user
+*.csproj.DotSettings.user
+
+# Ignorar as pastas e arquivos do Test Results
+TestResults/
+*.testresult
+
+# Ignorar arquivos de publicação
+publish/
