@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ah/lXo8B+ePYPHP2GdGOOb0vimlD7GX1+S/x/K4Ngl8=",
+  "Hash": "FdUQYdo+D2a+QAfEGnLfT8fq9ATdIv2IFm/IfiyoBvo=",
   "Source": "NunesSportsAPI",
   "BasePath": "_content/NunesSportsAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NunesSportsAPI\\wwwroot",
       "Source": "NunesSportsAPI",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\css\\reset.css",
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\css\\reset.css",
       "SourceId": "NunesSportsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "RelativePath": "css/reset.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\reset.css"
     },
     {
-      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\css\\style.css",
       "SourceId": "NunesSportsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\html\\index.html",
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\html\\index.html",
       "SourceId": "NunesSportsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "RelativePath": "html/index.html",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\html\\index.html"
     },
     {
-      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\images\\logo.png",
       "SourceId": "NunesSportsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\js\\script.js",
       "SourceId": "NunesSportsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\wwwroot\\",
       "BasePath": "_content/NunesSportsAPI",
       "RelativePath": "js/script.js",
       "AssetKind": "All",

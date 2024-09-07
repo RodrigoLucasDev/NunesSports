@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using NunesSportsAPI.Models;
 using NunesSportsAPI.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -13,6 +14,17 @@ public class ProdutosController : ControllerBase
     public ProdutosController(ApplicationDbContext context)
     {
         _context = context;
+    }
+
+    // Método auxiliar para buscar produto pelo ID e lidar com o caso de não encontrado
+    private async Task<ActionResult<Produto>> GetProdutoById(int id)
+    {
+        var produtoEncontrado = await _context.Produtos.FindAsync(id);
+        if (produtoEncontrado == null)
+        {
+            return NotFound();
+        }
+        return produtoEncontrado;
     }
 
     // GET: api/produtos
@@ -26,12 +38,7 @@ public class ProdutosController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<Produto>> GetProduto(int id)
     {
-        var produto = await _context.Produtos.FindAsync(id);
-        if (produto == null)
-        {
-            return NotFound();
-        }
-        return produto;
+        return await GetProdutoById(id);
     }
 
     // POST: api/produtos
@@ -61,7 +68,8 @@ public class ProdutosController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            if (!ProdutoExists(id))
+            var produtoExiste = await GetProdutoById(id);
+            if (produtoExiste.Result is NotFoundResult)
             {
                 return NotFound();
             }
@@ -78,18 +86,19 @@ public class ProdutosController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduto(int id)
     {
-        var produto = await _context.Produtos.FindAsync(id);
-        if (produto == null)
+        var produtoExiste = await GetProdutoById(id);
+        if (produtoExiste.Result is NotFoundResult)
         {
             return NotFound();
         }
 
-        _context.Produtos.Remove(produto);
+        _context.Produtos.Remove(produtoExiste.Value);
         await _context.SaveChangesAsync();
 
         return NoContent();
     }
 
+    // Validação auxiliar (ainda opcional para simplificação)
     private bool ProdutoExists(int id)
     {
         return _context.Produtos.Any(e => e.Id == id);

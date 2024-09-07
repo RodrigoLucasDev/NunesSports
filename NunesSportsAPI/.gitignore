@@ -6,22 +6,45 @@ obj/
 *.log
 *.user
 *.lock
+*.temp
+*.TMP
 
 # Ignorar arquivos específicos do Visual Studio/Visual Studio Code
 .vscode/
 .vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
 
-# Ignorar os arquivos de compilação e temporários
+# Ignorar as pastas e arquivos do Test Results
+TestResults/
+*.testresult
+
+# Ignorar arquivos de compilação e temporários
 *.dll
 *.pdb
 *.exe
 *.cache
 *.csproj.user
 *.csproj.DotSettings.user
+*.vsconfig
 
-# Ignorar as pastas e arquivos do Test Results
-TestResults/
-*.testresult
+# Ignorar pacotes NuGet baixados localmente
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
 
-# Ignorar arquivos de publicação
+# Ignorar arquivos de publicação e build
 publish/
+build/
+out/
+
+# Ignorar arquivos gerados por ferramentas
+*.dotCover
+coverage.*
+*.coverage
+*.coveragexml
+*.codecov
+*.lcov
