@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://localhost:5210';
+const apiBaseUrl = 'http://localhost:5210/api/produtos';
 
 // Função para adicionar uma nova linha na tabela
 function adicionarLinhaTabela({ codigo, nome, descricao, preco, quantidade }) {
@@ -30,7 +30,24 @@ document.querySelector('.product-form').addEventListener('submit', function(even
         quantidade: document.getElementById('quantidade-produto').value
     };
 
-    adicionarLinhaTabela(dadosProduto);
+    // Enviar requisição POST para o backend
+    fetch(`${apiBaseUrl}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dadosProduto)
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Aqui podemos adicionar a linha na tabela após o sucesso do POST
+        adicionarLinhaTabela(dadosProduto);
+        console.log('Produto adicionado:', data);
+    })
+    .catch(error => {
+        console.error('Erro ao adicionar o produto:', error);
+    });
+
     this.reset(); // Limpa o formulário
 });
 

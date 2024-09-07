@@ -1,15 +1,23 @@
-using NunesSportsAPI.Data;  // Referência ao namespace do ApplicationDbContext
-using Microsoft.EntityFrameworkCore;  // Necessário para o DbContext e MySQL
+using NunesSportsAPI.Data;  
+using Microsoft.EntityFrameworkCore;  
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Habilitando CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
 
 // Adicionando o serviço do ApplicationDbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
-    new MySqlServerVersion(new Version(8, 0, 39)))); // Use a versão do seu MySQL
+    new MySqlServerVersion(new Version(8, 0, 39)))); 
 
-// Adicionando outros serviços
-builder.Services.AddControllersWithViews(); // Exemplo de outro serviço
+builder.Services.AddControllersWithViews(); 
 
 var app = builder.Build();
 
@@ -28,6 +36,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Habilitando o CORS
+app.UseCors("AllowAllOrigins");
 
 app.UseAuthorization();
 
