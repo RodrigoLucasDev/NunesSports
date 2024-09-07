@@ -11,8 +11,8 @@ using NunesSportsAPI.Data;
 namespace NunesSportsAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240907003425_AddCodigoColumn")]
-    partial class AddCodigoColumn
+    [Migration("20240907141540_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

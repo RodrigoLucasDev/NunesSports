@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj": {}
+    "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\NunesSportsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj": {
+    "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\NunesSportsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\NunesSportsAPI.csproj",
         "projectName": "NunesSportsAPI",
-        "projectPath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj",
+        "projectPath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\NunesSportsAPI.csproj",
         "packagesPath": "C:\\Users\\RLcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\obj\\",
+        "outputPath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RLcab\\AppData\\Roaming\\NuGet\\NuGet.Config"

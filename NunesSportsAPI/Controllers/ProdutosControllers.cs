@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic; // Se você estiver usando listas ou coleções
+using System.Collections.Generic;
 using NunesSportsAPI.Models;
 using NunesSportsAPI.Data;
-using Microsoft.EntityFrameworkCore;  // Necessário para usar o ToListAsync
-
+using Microsoft.EntityFrameworkCore;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -16,12 +15,14 @@ public class ProdutosController : ControllerBase
         _context = context;
     }
 
+    // GET: api/produtos
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos()
     {
         return await _context.Produtos.ToListAsync();
     }
 
+    // GET: api/produtos/{id}
     [HttpGet("{id}")]
     public async Task<ActionResult<Produto>> GetProduto(int id)
     {
@@ -33,14 +34,17 @@ public class ProdutosController : ControllerBase
         return produto;
     }
 
+    // POST: api/produtos
     [HttpPost]
     public async Task<ActionResult<Produto>> PostProduto(Produto produto)
     {
         _context.Produtos.Add(produto);
         await _context.SaveChangesAsync();
-        return CreatedAtAction("GetProduto", new { id = produto.Id }, produto);
+
+        return CreatedAtAction(nameof(GetProduto), new { id = produto.Id }, produto);
     }
 
+    // PUT: api/produtos/{id}
     [HttpPut("{id}")]
     public async Task<IActionResult> PutProduto(int id, Produto produto)
     {
@@ -50,6 +54,7 @@ public class ProdutosController : ControllerBase
         }
 
         _context.Entry(produto).State = EntityState.Modified;
+
         try
         {
             await _context.SaveChangesAsync();
@@ -65,9 +70,11 @@ public class ProdutosController : ControllerBase
                 throw;
             }
         }
+
         return NoContent();
     }
 
+    // DELETE: api/produtos/{id}
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduto(int id)
     {
@@ -79,6 +86,7 @@ public class ProdutosController : ControllerBase
 
         _context.Produtos.Remove(produto);
         await _context.SaveChangesAsync();
+
         return NoContent();
     }
 

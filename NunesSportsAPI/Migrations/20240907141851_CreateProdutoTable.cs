@@ -5,7 +5,7 @@
 namespace NunesSportsAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class RemoveProdutoTable : Migration
+    public partial class CreateProdutoTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

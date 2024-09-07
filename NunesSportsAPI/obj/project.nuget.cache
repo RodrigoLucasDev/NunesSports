@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Etpju0Ct3sUsd/DjMWFUMZHjj3A5sLvYNBsDR3NDlGouByeLQfVMna5MSQiMdeCC8b+GZwRVBTv/TN0yjMVFLg==",
+  "dgSpecHash": "cQnzDAbEpgXC0yJ6pN6dwA2TSvvrGG4Mamq6f5YBla+ZdJXmkAjXyBA9DhIaV1yINHuAYitLhzyLzHeAFeESKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsAPI\\NunesSportsAPI.csproj",
+  "projectFilePath": "C:\\Users\\RLcab\\OneDrive\\Área de Trabalho\\NunesSports\\NunesSportsApi\\NunesSportsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RLcab\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\RLcab\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",

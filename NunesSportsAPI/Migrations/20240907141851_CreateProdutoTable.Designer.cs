@@ -11,8 +11,8 @@ using NunesSportsAPI.Data;
 namespace NunesSportsAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240907005327_RemoveProdutoTable")]
-    partial class RemoveProdutoTable
+    [Migration("20240907141851_CreateProdutoTable")]
+    partial class CreateProdutoTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
