@@ -22,7 +22,7 @@ O front-end do projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro. 
   - Migrações: A configuração do banco de dados foi realizada através de migrações do Entity Framework, garantindo que o banco de dados MySQL seja estruturado de acordo com as necessidades   do sistema.
 
 ### Status do Projeto
-  - Atualmente, o front-end está completamente funcional e responsivo, com todas as funcionalidades implementadas. No entanto, a integração do back-end com o banco de dados ainda está em desenvolvimento. A lógica de programação em C# utilizando .NET foi aplicada, mas a integração completa com o banco de dados MySQL utilizando o Entity Framework ainda não está finalizada.
+  - Atualmente, o front-end está completamente funcional e responsivo, com todas as funcionalidades implementadas. O backend está integrado ao banco de dados e a interface do usuário e os métodos HTTP já foram devidamente implementados para a obtenção de um CRUD completo. Atualmente o projeto precisa passar por um code review para fins de otimização e tornar o código mais limpo. Futuramente serão pensadas e incrementadas novas funcionalidades ao projeto para fins de estudo alinhado a prática. Do ponto de vista operacional o projeto está concluído, mas ainda precisa passar por um polimento, e posteriormente serão adicionadas atualizações.
 
 ### Tecnologias Utilizadas
 - **C# + ASP.NET Core + Entity Framework**
