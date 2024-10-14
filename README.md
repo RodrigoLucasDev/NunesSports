@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido como parte de um desafio do programa Best Minds 2024 da empresa Everymind onde foi proposto o desenvolvimento de um sistema de controle de vendas para a empresa fictícia NunesSports. O sistema é composto por um front-end responsivo e um back-end com integração ao banco de dados MySQL, desenvolvido em C# utilizando ASP.NET Core e Entity Framework.
+Este projeto foi desenvolvido como parte de um desafio, onde foi proposto o desenvolvimento de um sistema de controle de vendas para a empresa fictícia NunesSports. O sistema é composto por um front-end responsivo e um back-end com integração ao banco de dados MySQL, desenvolvido em C# utilizando ASP.NET Core e Entity Framework.
 
 ### Funcionalidades Implementadas
 - **Frontend -**
